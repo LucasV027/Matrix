@@ -7,6 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 file(GLOB_RECURSE SOURCES "Sources/*.cpp")
-file(GLOB_RECURSE HEADERS "Sources/*.h")
+file(GLOB_RECURSE HEADERS "Sources/*.hpp")
 
 add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCES})
