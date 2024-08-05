@@ -1,13 +1,8 @@
-#include <iostream>
-
 #include "Core/Matrix.h"
 
 int main(void)
 {
-    Matrix m(5, 5);
-    m.FillWithRandomNumbers();
-    std::cout << m << "\n";
-    m.SwapCols(0, 4);
-    std::cout << m;
+    Matrix<8, 8, int> m;
+    m.Display();
     return 0;
 }
